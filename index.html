@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/medias.css">
+</head>
+<body>
+
+
+    <main>
+        <section id="log">
+            <div id="esq">
+
+            </div>
+            <div id="dir">
+                <h1>Log in</h1>
+                <p>Seja bem vindo!
+                    Faça log in para acessar a sua conta.
+                </p>
+                <form action="login.php" method="post">
+                    <div class="camp">
+                        <i id="bur" class="material-icons">person</i>
+                        <input type="email" name="log" id="Ilog" placeholder="seu e-mail" autocomplete="on" required maxlength="30">
+                        <label for="ilog">Login</label>
+                    </div>
+                    <div class="camp">
+                        <i id="bur" class="material-icons">vpn_key</i>
+                        <input type="password" name="sen" id="Isen" placeholder="sua senha" autocomplete="current-password" minlength="8" maxlength="20" required>
+                        <label for="isen">Senha</label>
+                    </div>
+                    <input type="submit" value="Entrar">
+                    <a href="esqueci.html" class="bot">Esqueci a senha <i id="bur" class="material-icons">mail</i></a>
+
+                </form>
+            </div>
+
+        </section>
+    </main>
+    
+</body>
+</html>

@@ -1,0 +1,82 @@
+@charset "UTF-8";
+
+
+
+@media screen and (min-width:768px) and (max-width:992px) {
+    body{
+        background-image: linear-gradient(rgb(255, 189, 67), rgb(243, 243, 192));
+    }
+    #log{
+        width: 80vw;
+        height: 280px;
+    }   
+
+    #esq{
+        float: left;
+        width: 30%;
+        height: 100%;
+    }
+
+    #dir{
+        float: right;
+        width: 70%;
+    }
+}
+
+@media screen and (min-width:992px) and (max-width:1200px){
+
+    body{
+        background-image: linear-gradient(rgb(255, 189, 67), rgb(243, 243, 192));
+    }
+    #log{
+        width: 940px;
+        height: 350px;
+    }   
+
+    #esq{
+        float: left;
+        width: 50%;
+        height: 100%;
+    }
+
+    #dir{
+        float: right;
+        width: 50%;
+    }
+    #dir h1{
+        font-size: 2em;
+    }
+    #dir p{
+        font-size: 1.2em;
+    }
+}
+
+@media screen and (min-width:1200px){
+
+    body{
+        background-image: linear-gradient(rgb(255, 189, 67), rgb(243, 243, 192));
+    }
+    #log{
+        width: 940px;
+        height: 350px;
+    }   
+
+    #esq{
+        float: right;
+        width: 50%;
+        height: 100%;
+    }
+
+    #dir{
+        float: left;
+        width: 50%;
+    }
+
+    #dir h1{
+        font-size: 2em;
+    }
+    #dir p{
+        font-size: 1.2em;
+    }
+}
+
